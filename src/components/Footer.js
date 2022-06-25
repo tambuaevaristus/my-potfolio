@@ -15,22 +15,22 @@ export default function Footer() {
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">
-                  Features
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
-                  Pricing
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
                   About
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">
+                  Education
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">
+                  Contact
                 </a>
               </li>
             </ul>
@@ -101,7 +101,7 @@ export default function Footer() {
           <div class="col-4 offset-1">
             <form>
               <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of whats new and exciting from us.</p>
+              <p></p>
               <div class="d-flex w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">
                   Email address
@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
 
         <div class="d-flex justify-content-between py-4 my-4 border-top">
-          <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+          <p>&copy; 2022 Tambua Evaristus. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
               <a class="link-dark" href="#">
