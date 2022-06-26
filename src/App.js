@@ -8,6 +8,7 @@ import ContactForm from "./screens/ContactForm";
 import Test from "./components/Text";
 import Banner from "./Banner";
 import Footer from "./components/Footer";
+import ProjectList from "./components/ProjectList";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Banner />
       <Test/>
+      <ProjectList />
       <Footer />
     </div>
   );
