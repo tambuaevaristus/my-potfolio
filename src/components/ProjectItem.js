@@ -8,8 +8,10 @@ import Typography from "@mui/material/Typography";
 
 export default function ProjectItem(props) {
   return (
-    <div className="col-md-4 my-3 px-2">
-      <Card >
+    <div className="col-md-4 my-4 px-2">
+      <Card sx={{
+        minHeight:400,
+      }}>
         <CardMedia
           component="img"
           alt="green iguana"
