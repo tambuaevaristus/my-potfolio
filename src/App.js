@@ -9,6 +9,7 @@ import Test from "./components/Text";
 import Banner from "./Banner";
 import Footer from "./components/Footer";
 import ProjectList from "./components/ProjectList";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <Test/>
       <ProjectList />
+      <Education />
       <Footer />
     </div>
   );

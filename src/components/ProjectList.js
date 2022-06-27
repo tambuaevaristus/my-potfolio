@@ -3,7 +3,9 @@ import ProjectItem from "./ProjectItem";
 
 export default function ProjectList() {
   return (
-    <div className="container row d-flex m-auto">
+    <div className="container ">
+        <h1 className="text-center" >Projects</h1>
+        <div className="row d-flex m-auto">
       <ProjectItem
         title="King Lion Pictures"
         description="A dynamic website built with php laravel containing an admin panel"
@@ -29,6 +31,7 @@ export default function ProjectList() {
         link="#"
         image=""
       />
+    </div>
     </div>
   );
 }
