@@ -2,8 +2,11 @@ import React from "react";
 
 const Test = () => {
   return (
-    <div className="container py-5">
-      <div class="row">
+    <div className="container-fluid py-5 bg-white"   style={{
+      borderBottomLeftRadius: "150px",
+      borderBottomRightRadius: "10px"  
+    }}>
+      <div class="row container">
         <div class="col-4">
           <div class=" d-flex h-100">
             <div

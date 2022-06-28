@@ -4,17 +4,20 @@ export default function Banner() {
   return (
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      class="carousel slide bg-white"
       data-bs-ride="false"
     >
-      <div class="carousel-inner  bg-gradient">
+      <div class="carousel-inner  bg-gradient"  style={{
+            borderBottomLeftRadius: "150px",
+            borderBottomRightRadius: "10px"  
+          }}>
         <div class="carousel-item active">
           <img
             height="700px"
-            style={{
-              borderBottomLeftRadius: "350px",
-              borderBottomRightRadius: "20px"  
-            }}
+            // style={{
+            //   borderBottomLeftRadius: "150px",
+            //   borderBottomRightRadius: "10px"  
+            // }}
             src="/asserts/banner4.png"
             class="d-block w-100 img-fluid h-100"
             alt="..."
@@ -27,10 +30,10 @@ export default function Banner() {
         </div>
         <div class="carousel-item">
           <img
-          style={{
-            borderBottomLeftRadius: "350px",
-            borderBottomRightRadius: "20px"  
-          }}
+          // style={{
+          //   borderBottomLeftRadius: "150px",
+          //   borderBottomRightRadius: "10px"  
+          // }}
             height="700px"
             src="/asserts/banner1.png"
             class="d-block w-100 img-fluid h-100"
@@ -42,10 +45,7 @@ export default function Banner() {
         </div>
         <div class="carousel-item">
           <img
-          style={{
-            borderBottomLeftRadius: "350px",
-            borderBottomRightRadius: "20px"  
-          }}
+         
             height="700px"
             src="/asserts/banner5.png"
             class="d-block w-100 img-fluid h-100"
