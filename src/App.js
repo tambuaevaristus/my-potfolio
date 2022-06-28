@@ -1,29 +1,30 @@
 import React from "react";
-import Header from "./components/Header";
-import ProjectItem from "./components/ProjectItem";
-import Album from "./screens/Album";
-import { Button } from "react-bootstrap";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import ContactForm from "./screens/ContactForm";
-import Test from "./components/Text";
-import Banner from "./Banner";
-import Footer from "./components/Footer";
-import ProjectList from "./components/ProjectList";
+import Home from "./Home";
 import Education from "./components/Education";
-import Languages from "./components/Languages";
-import ExtraSkills from "./components/ExtraSkills";
+import ProjectList from "./components/ProjectList";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <Test/>
-      <ProjectList />
-      <Languages />
-      <ExtraSkills />
-      <Education />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="education"
+          element={
+            <>
+              <Header />
+              <Education />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="projects" element={<ProjectList />} />
+      </Routes>
     </div>
   );
 }

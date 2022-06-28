@@ -8,16 +8,14 @@ const Test = () => {
     }}>
       <div class="row container">
         <div class="col-4">
-          <div class=" d-flex h-100">
+          <div class=" d-flex d-sm-none d-lg-block h-100">
             <div
-            ><img class="position-absolut top-0 start-0 w-100  rounded-3 bg-size-cover bg-repeat-0 bg-position-center" src="asserts/about.jpeg" width="100%" height="100%" alt="" /></div>
+            ><img class="position-absolut top-0 start-0 w-100  d-sm-none d-lg-block rounded-3 bg-size-cover bg-repeat-0 bg-position-center" src="asserts/about.jpeg" width="100%" height="100%" alt="" /></div>
           </div>
         </div>
-        <div class="col-8 ">
+        <div class="col-lg-8 ">
           <figure class="card position-relativ border-0 shadow-sm py-3 p-0 p-lg-4 mt-4 mb-0 ms-xl-5">
-            <span class="btn btn-icon btn-primary btn-lg shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4 ms-lg-5">
-              <i class="bx bxs-quote-left"></i>
-            </span>
+            <h1>About Me</h1>
             <blockquote class="card-body mt-2 mb-0">
               <p class="fs-lg">
                 Dolor, a eget elementum, integer nulla volutpat, nunc, sit. Quam
@@ -38,13 +36,13 @@ const Test = () => {
                   <span class="fs-sm text-muted">Software Engineer</span>
                 </div>
               </div>
-              <img
+              {/* <img
                 src="asserts/logo.png"
                 width="160"
                 height="50px"
                 class="d-block mt-2 ms-5 mt-sm-0 pr-sm-5 ms-sm-0"
                 alt="Tambua Evaristus"
-              />
+              /> */}
             </figcaption>
           </figure>
         </div>

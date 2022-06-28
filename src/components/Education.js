@@ -5,14 +5,40 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
+import { width } from "@mui/system";
+import { grey } from "@mui/material/colors";
 
 export default function Education() {
   return (
-    <div className="container m-auto">
-      <div className=" text-center">
-        {" "}
-        <h1>Education</h1>
+    <div className=" ">
+      <div class="bg-whit">
+        <img
+          src="/asserts/banner3.png"
+          width="100%"
+          style={{
+            height: "350px",
+            width: "100%",
+          
+            borderBottomLeftRadius: "60px",
+            borderBottomRightRadius: "3px",
+          }}
+          class="d-block w-100 "
+          alt="..."
+        />
+        <div
+          class=" text-center  py-3"
+          style={{
+            
+            borderBottomLeftRadius: "90px",
+            borderBottom:'1px solid grey',
+            borderBottomRightRadius: "3px",
+          }}
+        >
+          <h2>Educational Background</h2>
+        </div>
       </div>
+      <div className="container m-auto mt-5"></div>
+      <div className=" text-center"> {/* <h1>Education</h1> */}</div>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -25,7 +51,9 @@ export default function Education() {
           <h3 className="vertical-timeline-element-title text-white">
             Bachelors of Engineering
           </h3>
-          <h4 className="vertical-timeline-element-subtitle text-white">B.Eng</h4>
+          <h4 className="vertical-timeline-element-subtitle text-white">
+            B.Eng
+          </h4>
           <p className="text-white">
             Faculty of Engineering and Technology, UB Computer Engineering /
             software Engineering{" "}
@@ -39,41 +67,47 @@ export default function Education() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title text-white">Software Engineering Training</h3>
-          <h4 className="vertical-timeline-element-subtitle text-white">
-           
-          </h4>
+          <h3 className="vertical-timeline-element-title text-white">
+            Software Engineering Training
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle text-white"></h4>
           <p className="text-white">
             School of Media Design and Information Technology
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(233, 30, 99)"}}
+          contentStyle={{ background: "rgb(233, 30, 99)" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
           date="2014 - 2016"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title text-white">GCE Advanced Level</h3>
+          <h3 className="vertical-timeline-element-title text-white">
+            GCE Advanced Level
+          </h3>
           <h4 className="vertical-timeline-element-subtitle text-white">
-          General Certificate of Education
+            General Certificate of Education
           </h4>
           <p className="text-white">Government Bilingual High School Ndop</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(233, 30, 99)"}}
+          contentStyle={{ background: "rgb(233, 30, 99)" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
           date="2010 - 2014"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title text-white">GCE Ordinary Level</h3>
+          <h3 className="vertical-timeline-element-title text-white">
+            GCE Ordinary Level
+          </h3>
           <h4 className="vertical-timeline-element-subtitle text-white">
-          General Certificate of Education
+            General Certificate of Education
           </h4>
-          <p className="text-white">Government Bilingual High School Mbeunkong</p>
+          <p className="text-white">
+            Government Bilingual High School Mbeunkong
+          </p>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
