@@ -7,32 +7,14 @@ export default function Banner() {
       class="carousel slide"
       data-bs-ride="false"
     >
-      {/* <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div> */}
-      <div class="carousel-inner bg-secondary bg-gradient">
+      <div class="carousel-inner  bg-gradient">
         <div class="carousel-item active">
           <img
             height="700px"
+            style={{
+              borderBottomLeftRadius: "350px",
+              borderBottomRightRadius: "20px"  
+            }}
             src="/asserts/banner4.png"
             class="d-block w-100 img-fluid h-100"
             alt="..."
@@ -45,6 +27,10 @@ export default function Banner() {
         </div>
         <div class="carousel-item">
           <img
+          style={{
+            borderBottomLeftRadius: "350px",
+            borderBottomRightRadius: "20px"  
+          }}
             height="700px"
             src="/asserts/banner1.png"
             class="d-block w-100 img-fluid h-100"
@@ -55,7 +41,11 @@ export default function Banner() {
           </div>
         </div>
         <div class="carousel-item">
-        <img
+          <img
+          style={{
+            borderBottomLeftRadius: "350px",
+            borderBottomRightRadius: "20px"  
+          }}
             height="700px"
             src="/asserts/banner5.png"
             class="d-block w-100 img-fluid h-100"
@@ -95,18 +85,6 @@ export default function Banner() {
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-
-
-
-
-
-
-
-
-
-
-
-      
     </div>
   );
 }

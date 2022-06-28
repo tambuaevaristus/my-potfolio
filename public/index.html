@@ -12,14 +12,43 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <!-- Vendor Styles -->
-    <link rel="stylesheet" media="screen" href="../assets/vendor/boxicons/css/boxicons.min.css"/>
-    <link rel="stylesheet" media="screen" href="../assets/vendor/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" media="screen" href="../assets/vendor/prismjs/themes/prism.css"/>
-    <link rel="stylesheet" media="screen" href="../assets/vendor/prismjs/plugins/toolbar/prism-toolbar.css"/>
-    <link rel="stylesheet" media="screen" href="../assets/vendor/prismjs/plugins/line-numbers/prism-line-numbers.css"/>
-
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="../assets/vendor/boxicons/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="../assets/vendor/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="../assets/vendor/prismjs/themes/prism.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="../assets/vendor/prismjs/plugins/toolbar/prism-toolbar.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="../assets/vendor/prismjs/plugins/line-numbers/prism-line-numbers.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss"
+    />
     <!-- Main Theme Styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="../assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="../assets/css/theme.min.css" />
 
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -82,5 +111,40 @@
 
   <!-- Main Theme Script -->
   <script src="../assets/js/theme.min.js"></script>
-
+  <script src="/public/OwlCarousel2-2.3.4/src/js/owl.carousel.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          600: {
+            items: 3,
+            nav: false,
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false,
+          },
+        },
+      });
+    });
+  </script>
 </html>

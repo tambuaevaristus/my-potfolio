@@ -10,6 +10,8 @@ import Banner from "./Banner";
 import Footer from "./components/Footer";
 import ProjectList from "./components/ProjectList";
 import Education from "./components/Education";
+import Languages from "./components/Languages";
+import ExtraSkills from "./components/ExtraSkills";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Banner />
       <Test/>
       <ProjectList />
+      <Languages />
+      <ExtraSkills />
       <Education />
       <Footer />
     </div>
