@@ -7,6 +7,7 @@ import Education from "./components/Education";
 import Languages from "./components/Languages";
 import ExtraSkills from "./components/ExtraSkills";
 import Header from "./components/Header";
+import Experiences from "./components/Experiences";
 
 export default function Home () {
   return (
@@ -17,6 +18,7 @@ export default function Home () {
       <ProjectList />
       <Languages />
       <ExtraSkills />
+      <Experiences/>
       <Footer />
     </div>
   );

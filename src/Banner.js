@@ -3,12 +3,12 @@ import React from "react";
 export default function Banner() {
   return (
     <div
-      id="carouselExampleCaptions"
-      class="carousel slide bg-white"
+      id="carouselExampleCaptions "
+      class="carousel slide bg-white mt-5"
       data-bs-ride="false"
     >
       <div class="carousel-inner  bg-gradient"  style={{
-            borderBottomLeftRadius: "150px",
+            borderBottomLeftRadius: "40px",
             borderBottomRightRadius: "10px"  
           }}>
         <div class="carousel-item active">

@@ -3,7 +3,7 @@ import React from "react";
 const Test = () => {
   return (
     <div className="container-fluid py-5 bg-white"   style={{
-      borderBottomLeftRadius: "150px",
+      borderBottomLeftRadius: "50px",
       borderBottomRightRadius: "10px"  
     }}>
       <div class="row container">

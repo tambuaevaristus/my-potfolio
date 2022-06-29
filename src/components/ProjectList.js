@@ -3,8 +3,8 @@ import ProjectItem from "./ProjectItem";
 
 export default function ProjectList() {
   return (
-    <div className="container ">
-        <h1 className="text-center" >Projects</h1>
+    <div className="container mt-5 pt-5" id="projects">
+        <h1 className="text-center mt-5" >Projects</h1>
         <div className="row d-flex m-auto">
       <ProjectItem
         title="King Lion Pictures"

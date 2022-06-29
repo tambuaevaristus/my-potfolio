@@ -16,7 +16,11 @@ export default function ProjectItem(props) {
         <CardMedia
           component="img"
           alt="green iguana"
-          minheight="140"
+          // minheight="140"
+          sx={{
+            maxHeight: 200,
+            minHeight: 200,
+          }}
           image={props.image}
         />
         <CardContent>

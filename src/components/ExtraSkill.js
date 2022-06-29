@@ -5,9 +5,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function Skill(props) {
+export default function ExtraSkill(props) {
   return (
-    <div className="col-md-3 py-2">
+    // <div className="col-md-3 py-2">
         <Card sx={{ minHeight:300, margin:'auto', height:300 }}>
       <CardActionArea>
         <CardMedia
@@ -24,6 +24,6 @@ export default function Skill(props) {
         
       </CardActionArea>
     </Card>
-    </div>
+    // </div>
   );
 }
