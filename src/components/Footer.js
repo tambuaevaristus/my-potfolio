@@ -5,102 +5,102 @@ export default function Footer() {
     <div class="container-fluid pt-5 bg-dark mt-5 text-white">
       <footer class="py-5 container">
         <div class="row">
-          <div class="col-2">
-            <h5>Section</h5>
+          <div class="col-lg-4">
+            <h5 class="text-white">Section</h5>
             <ul class="nav flex-column">
                <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Home
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   About
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Projects
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Education
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Contact
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-2">
-            <h5>Section</h5>
+          <div class="col-lg-4">
+            <h5 class="text-white">Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Home
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Features
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Pricing
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   FAQs
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   About
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-2">
-            <h5>Section</h5>
+          <div class="col-lg-4">
+            <h5 class="text-white">Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Home
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Features
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   Pricing
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   FAQs
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link text-muted p-0 ">
                   About
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-4 offset-1">
+          <div class="col-lg-4 offset-1 ">
             <form>
-              <h5>Subscribe to our newsletter</h5>
+              <h5 class="text-white">Subscribe to our newsletter</h5>
               <p></p>
               <div class="d-flex w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">

@@ -2,47 +2,29 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div
-      id="carouselExampleCaptions "
-      class="carousel slide bg-white mt-5"
-      data-bs-ride="false"
-    >
-      <div class="carousel-inner  bg-gradient"  style={{
+    <div id="carouselExampleControls" class="carousel slide bg-white mt-5" data-ride="carousel">
+
+      <div class="carousel-inner"  style={{
             borderBottomLeftRadius: "40px",
-            borderBottomRightRadius: "10px"  
           }}>
         <div class="carousel-item active">
           <img
             height="700px"
-            // style={{
-            //   borderBottomLeftRadius: "150px",
-            //   borderBottomRightRadius: "10px"  
-            // }}
-            src="/asserts/banner4.png"
+            src="/asserts/EvaBanner2.png"
             class="d-block w-100 img-fluid h-100"
             alt="..."
           />
-          <div class="carousel-caption pt-4 row d-flex">
-            <div class="col-md ">
-              <h1>Creacting A Pefect Place For Studies</h1>
-            </div>
-          </div>
+         
         </div>
         <div class="carousel-item">
           <img
-          // style={{
-          //   borderBottomLeftRadius: "150px",
-          //   borderBottomRightRadius: "10px"  
-          // }}
             height="700px"
             src="/asserts/banner1.png"
             class="d-block w-100 img-fluid h-100"
             alt="..."
           />
-          <div class="carousel-caption d-block">
-            <h2>All Courses Are Free</h2>
-          </div>
         </div>
+
         <div class="carousel-item">
           <img
          
@@ -51,40 +33,17 @@ export default function Banner() {
             class="d-block w-100 img-fluid h-100"
             alt="..."
           />
-          <div class="carousel-caption d-block">
-            <h2>All Courses Are Free</h2>
-          </div>
-          {/* <video width="100%" height="700px" autoPlay>
-            <source
-              src="/asserts/vid.mp4"
-              type="video/mp4"
-            />
-             <source
-              src="/asserts/vid.mp4"
-              // type="video/ogg"
-            />
-
-          </video> */}
         </div>
+
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
     </div>
   );
 }

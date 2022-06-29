@@ -8,13 +8,14 @@ import Languages from "./components/Languages";
 import ExtraSkills from "./components/ExtraSkills";
 import Header from "./components/Header";
 import Experiences from "./components/Experiences";
+import About from "./components/About";
 
 export default function Home () {
   return (
     <div>
       <Header />
       <Banner />
-      <Test />
+      <About />
       <ProjectList />
       <Languages />
       <ExtraSkills />
