@@ -3,7 +3,7 @@ import ExperienceItem from "./ExperienceItem";
 
 export default function Experiences() {
   return (
-    <div className="container  my-5">
+    <div className="container my-5">
 
     <div class="text-center my-5">
         <h1>Work Experience</h1>

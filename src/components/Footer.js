@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div class="container-fluid pt-5 bg-dark mt-5 text-white">
+    <div class="container-fluid pt-5 px-5 bg-dark mt-5 text-white">
       <footer class="py-5 container">
         <div class="row">
           <div class="col-lg-4">
@@ -98,7 +98,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div class="col-lg-4 offset-1 ">
+          <div class="col-lg-4  ">
             <form>
               <h5 class="text-white">Subscribe to our newsletter</h5>
               <p></p>
@@ -111,7 +111,7 @@ export default function Footer() {
                   type="text"
                   class="form-control"
                   placeholder="Email address"
-                />
+                /> <br/>
                 <button class="btn btn-primary" type="button">
                   Subscribe
                 </button>
