@@ -28,7 +28,7 @@ export default function Banner() {
           <div class="d-none d-md-block">
             <img
               height="700px"
-              src="/asserts/EvaBanner2.png"
+              src="/asserts/EvaBanner3.png"
               class="d-block w-100 img-fluid h-100"
               alt="..."
             />
@@ -36,7 +36,7 @@ export default function Banner() {
           <div class="d-sm-block d-md-none">
             <img
               height="700px"
-              src="/asserts/EvaBanner2-mobile.png"
+              src="/asserts/EvaBanner3-mobile.png"
               class="d-block w-100 img-fluid h-100"
               alt="..."
             />
