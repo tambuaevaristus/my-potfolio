@@ -17,19 +17,19 @@ export default function Experiences() {
           title="Afro Vision Group"
           description="Six months intensive PHP/Laravel training"
           duration="2020-2021"
-          image="/asserts/afrovision.png"
+          image="/asserts/afrovision.jpeg"
         />
         <ExperienceItem
           title="Zepstra Company ltd"
           description="Two months front end development training"
           duration="2019"
-          image="/asserts/zepstra.png"
+          image="/asserts/z.png"
         />
         <ExperienceItem
           title="Bohikor Saas"
           description="Six months back end development with Java Spring Boot"
           duration="2021-2022"
-          image="/asserts/bohikor.png"
+          image="/asserts/bohikor.jpeg"
         />
         <ExperienceItem
           title="Iknite Space"

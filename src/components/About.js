@@ -9,9 +9,9 @@ export default function About() {
         <h1 className="text-center">About Eva</h1>
         <p className="text-center ">
           My full name is Tambua Evaristus N. But you can call me Eva, or
-          anything else that feels right to you. I am a graduate from the
+          anything else that feels right to you. <br/> I am a graduate from the
           faculty of Engineering and technology University of Buea. I studied
-          software engineering. I current work as an intern at Iknite space. I
+          software engineering. <br/> I currently work as an intern at Iknite space. I
           specialize in building web and mobile applications I also make things
           that make people happy.
         </p>

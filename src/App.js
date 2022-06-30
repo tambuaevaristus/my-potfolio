@@ -7,6 +7,8 @@ import Education from "./components/Education";
 import ProjectList from "./components/ProjectList";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   return (
@@ -23,7 +25,38 @@ function App() {
             </>
           }
         />
-        <Route path="projects" element={<ProjectList />} />
+        <Route
+          path="contact"
+          element={
+            <>
+              <Header />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+
+<Route
+          path="about"
+          element={
+            <>
+              <Header />
+              <About />
+              <Footer />
+            </>
+          }
+        />
+        
+        <Route
+          path="projects"
+          element={
+            <>
+              <Header />
+              <ProjectList />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
     </div>
   );

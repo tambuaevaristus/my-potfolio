@@ -8,12 +8,22 @@ export default function Banner() {
             borderBottomLeftRadius: "40px",
           }}>
         <div class="carousel-item active">
-          <img
+        <div class="d-none d-md-block">
+        <img
             height="700px"
             src="/asserts/EvaBanner2.png"
             class="d-block w-100 img-fluid h-100"
             alt="..."
           />
+        </div>
+        <div class="d-sm-block d-md-none">
+        <img
+            height="700px"
+            src="/asserts/EvaBanner2-mobile.png"
+            class="d-block w-100 img-fluid h-100"
+            alt="..."
+          />
+        </div>
          
         </div>
         <div class="carousel-item">

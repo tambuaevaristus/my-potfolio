@@ -18,6 +18,7 @@ export default function ProjectItem(props) {
           alt="green iguana"
           // minheight="140"
           sx={{
+            backgroundColor:"orange",
             maxHeight: 200,
             minHeight: 200,
           }}
