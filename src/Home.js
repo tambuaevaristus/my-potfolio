@@ -15,6 +15,7 @@ export default function Home () {
     <div>
       <Header />
       <Banner />
+      {/* <Test /> */}
       <About />
       <ProjectList />
       <Languages />
