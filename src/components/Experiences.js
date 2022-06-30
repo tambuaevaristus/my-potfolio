@@ -7,6 +7,9 @@ export default function Experiences() {
 
     <div class="text-center my-5">
         <h1>Work Experience</h1>
+        <p className="text-center ">
+        Here are is a list of some of the startups i have worked with 
+      </p>
     </div>
 
       <div className="row">

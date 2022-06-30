@@ -32,8 +32,8 @@ export default function ProjectItem(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">visit site</Button>
-          <Button size="small">Learn More</Button>
+          <a className="nav-link" href={props.link} hrefsize="small">visit site</a>
+          <a className="nav-link" href={props.link} hrefsize="small">Learn More</a>
         </CardActions>
       </Card>
     </div>
