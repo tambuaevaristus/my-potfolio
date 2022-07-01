@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" fixed='top' variant="dark">
-      <Container>
+      <Container className="d-flex bg-white">
         <Navbar.Brand href="/">Tambua Evaristus</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
