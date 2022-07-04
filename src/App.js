@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import SubHeader from "./components/SubHeader";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           element={
             <>
               <Header />
+              <SubHeader />
               <Education />
               <Footer />
             </>
@@ -30,6 +32,7 @@ function App() {
           element={
             <>
               <Header />
+              <SubHeader />
               <Contact />
               <Footer />
             </>
@@ -41,6 +44,7 @@ function App() {
           element={
             <>
               <Header />
+              <SubHeader />
               <About />
               <Footer />
             </>
@@ -52,6 +56,7 @@ function App() {
           element={
             <>
               <Header />
+              <SubHeader />
               <ProjectList />
               <Footer />
             </>

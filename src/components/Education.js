@@ -11,33 +11,14 @@ import { grey } from "@mui/material/colors";
 export default function Education() {
   return (
     <div className=" ">
-      <div class="bg-whit">
-        <img
-          src="/asserts/banner3.png"
-          width="100%"
-          style={{
-            height: "350px",
-            width: "100%",
+    
+      <div
+          class=" text-center pt-5 "
           
-            borderBottomLeftRadius: "60px",
-            borderBottomRightRadius: "3px",
-          }}
-          class="d-block w-100 "
-          alt="..."
-        />
-        <div
-          class=" text-center  py-3"
-          style={{
-            
-            borderBottomLeftRadius: "90px",
-            borderBottom:'1px solid grey',
-            borderBottomRightRadius: "3px",
-          }}
         >
           <h2>Educational Background</h2>
         </div>
-      </div>
-      <div className="container m-auto mt-5"></div>
+      <div className="container m-auto mt-5 position-absolute"></div>
       <div className=" text-center"> {/* <h1>Education</h1> */}</div>
       <VerticalTimeline>
         <VerticalTimelineElement

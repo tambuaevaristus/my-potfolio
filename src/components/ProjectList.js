@@ -4,7 +4,7 @@ import ProjectItem from "./ProjectItem";
 export default function ProjectList() {
   return (
     <div className="container mt-5 pt-5" id="projects">
-      <h1 className="text-center mt-5">Projects</h1>
+      <h1 className="text-center ">Projects</h1>
       <p className="text-center ">
         Below are a list of some of the projects i have worked on. Some where just for the <br/> sake of learning while most belong to clients.
       </p>
