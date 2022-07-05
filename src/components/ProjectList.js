@@ -25,7 +25,7 @@ export default function ProjectList() {
         <ProjectItem
           title="Ewald Music Website"
           description="A dynamic website built with Reactjs"
-          link=""
+          link="https://ewald-music.web.app/"
           image="/asserts/ewald.png"
         />
         <ProjectItem

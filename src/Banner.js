@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div id="carouselExampleControls" class="carousel slide bg-white mt-5" data-bs-ride="carousel">
     <div class="carousel-inner"  style={{
-          borderBottomLeftRadius: "40px",
+          // borderBottomLeftRadius: "40px",
         }}>
     <div class="carousel-item active">
           <div class="d-none d-md-block">
