@@ -39,7 +39,7 @@ function App() {
           }
         />
 
-<Route
+        <Route
           path="about"
           element={
             <>
@@ -50,7 +50,7 @@ function App() {
             </>
           }
         />
-        
+
         <Route
           path="projects"
           element={

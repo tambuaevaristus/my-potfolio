@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div id="carouselExampleControls" class="carousel slide bg-white mt-5" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide bg-white " data-bs-ride="carousel">
     <div class="carousel-inner"  style={{
           // borderBottomLeftRadius: "40px",
         }}>

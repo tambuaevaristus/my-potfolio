@@ -98,26 +98,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div class="col-lg-4  ">
-            <form>
-              <h5 class="text-white">Subscribe to our newsletter</h5>
-              <p></p>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
-                  Email address
-                </label>
-                <input
-                  id="newsletter1"
-                  type="text"
-                  class="form-control"
-                  placeholder="Email address"
-                /> <br/>
-                <button class="btn btn-primary" type="button">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
+          
         </div>
 
         <div class="d-flex justify-content-between py-4 my-4 border-top">
