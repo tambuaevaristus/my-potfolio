@@ -1,4 +1,5 @@
 import React from "react";
+import Icon, { FontAwesome, Feather } from 'react-web-vector-icons';
 
 export default function Header() {
   return (
@@ -65,7 +66,7 @@ export default function Header() {
                 </a>
               </li>
               <li class="nav-item ml-4">
-                <a class="nav-link btn btn-outline-secondary text-bold" href="/contact">
+                <a class="nav-link btn btn-outline-secondary text-bold" href=" https://wa.me/+237676814364">
                   Lets Chat
                 </a>
               </li>
