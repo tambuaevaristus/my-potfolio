@@ -1,5 +1,6 @@
 import React from "react";
 import Icon, { FontAwesome, Feather } from 'react-web-vector-icons';
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -68,6 +69,7 @@ export default function Header() {
               <li class="nav-item ml-4">
                 <a class="nav-link btn btn-outline-secondary text-bold" href=" https://wa.me/+237676814364">
                   Lets Chat
+                     {" "}<FaWhatsapp size={25}/>
                 </a>
               </li>
             </ul>
