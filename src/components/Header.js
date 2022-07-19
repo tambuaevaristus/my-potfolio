@@ -1,6 +1,6 @@
 import React from "react";
 import Icon, { FontAwesome, Feather } from 'react-web-vector-icons';
-import { FaWhatsapp } from "react-icons/fa";
+import { FaEtsy, FaWhatsapp } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -8,12 +8,9 @@ export default function Header() {
       <nav class="navbar navbar-expand-md fixed-top navbar-dark header">
         <div class="container">
           <a class="navbar-brand" href="/">
-            <img
-              src="/assets/logo.png"
-              width="50"
-              class="img-fluid d-md-none"
-              alt="EVA"
-            />
+            <div className="d-md-none">         
+              <FaEtsy />
+              </div>
           </a>
           <button
             class="navbar-toggler"
@@ -31,14 +28,14 @@ export default function Header() {
             class="collapse navbar-collapse justify-content-between"
             id="navbarTogglerDemo01"
           >
+            <div class="d-none d-md-block">
             <a class="navbar-brand" href="/">
-              <img
-                src="/assets/logo.png"
-                width="50"
-                class="d-none d-md-block img-fluid"
-                alt="EVA"
-              />
-            </a>
+            
+            <FaEtsy />
+
+          </a>
+            </div>
+           
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link " href="/">
