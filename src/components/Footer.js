@@ -6,16 +6,17 @@ export default function Footer() {
     <div class="container-fluid px-5 bg-dark mt-5 text-white">
       <footer class="py-5 container">
         <div class=" mx-auto">
-            <ul class="d-flex justify-content-center">
-              <li class="px-2"><a href="#"><FaWhatsapp size={45} color="white"/> </a></li>
-              <li class="px-2"><a href="#"><FaFacebook size={45} color="white"/> </a></li>
-              <li class="px-2"><a href="#"><FaInstagram size={45} color="white"/> </a></li>
-              <li class="px-2"><a href="#"><FaTwitter size={45} color="white"/> </a></li>
-              <li class="px-2"><a href="#"><FaLinkedin size={45} color="white"/> </a></li>
-            </ul>
+            <div class="d-flex justify-content-center">
+              <span class="px-2"><a href="#"><FaWhatsapp size={45} color="white"/> </a></span>
+              <span class="px-2"><a href="#"><FaFacebook size={45} color="white"/> </a></span>
+              <span class="px-2"><a href="#"><FaInstagram size={45} color="white"/> </a></span>
+              <span class="px-2"><a href="#"><FaTwitter size={45} color="white"/> </a></span>
+              <span class="px-2"><a href="#"><FaLinkedin size={45} color="white"/> </a></span>
+            </div>
         </div>
-        <div class="d-flex justify-content-end py-4 my-4 border-top">
-          <p>&copy; 2022 Tambua Evaristus. All rights reserved.</p>
+        <div class="d-flex justify-content-around py-4 my-4 border-top">
+          <p> All rights reserved.</p>
+          <p>&copy; 2022 Tambua Evaristus.</p>
          
         </div>
       </footer>

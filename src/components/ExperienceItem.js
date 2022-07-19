@@ -8,7 +8,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 export default function ExperienceItem(props) {
   return (
    <div className="col-md-4 col-lg-3 my-2">
-     <Card sx={{ maxWidth: 345, maxHeight:400, minHeight:400,}}>
+     <Card sx={{ maxHeight:400, minHeight:400,}}>
       <CardActionArea
        sx={{
        backgroundColor:"transparent",
