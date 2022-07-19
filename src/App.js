@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
-          path="education"
+          path="/education"
           element={
             <>
               <Header />
@@ -28,7 +28,7 @@ function App() {
           }
         />
         <Route
-          path="contact"
+          path="/contact"
           element={
             <>
               <Header />
@@ -40,7 +40,7 @@ function App() {
         />
 
         <Route
-          path="about"
+          path="/about"
           element={
             <>
               <Header />
@@ -52,7 +52,7 @@ function App() {
         />
 
         <Route
-          path="projects"
+          path="/projects"
           element={
             <>
               <Header />

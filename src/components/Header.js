@@ -10,9 +10,9 @@ export default function Header() {
       <nav class="navbar navbar-expand-md fixed-top navbar-dark header">
         <div class="container">
           <Link class="navbar-brand" to="/">
-            <div className="d-md-none border bx-border-radius-2">
+            <div className="d-md-none border border-secondary">
               <TbLetterE />
-              <TbLetterV />
+              <TbLetterV size={25} color="orange" />
               <TbLetterA />
             </div>
           </Link>
@@ -33,12 +33,12 @@ export default function Header() {
             class="collapse navbar-collapse justify-content-between"
             id="navbarTogglerDemo01"
           >
-            <div class="d-none d-md-block border border-l">
+            <div class="d-none d-md-block border border-secondary">
               <Link class="navbar-brand" to="/">
                 {/* <TbLetterT /> */}
                 {/* <FaEtsy />  */}
                 <TbLetterE />
-                <TbLetterV />
+                <TbLetterV size={25} color="orange" />
                 <TbLetterA />
               </Link>
             </div>

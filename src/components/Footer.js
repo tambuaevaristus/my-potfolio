@@ -8,7 +8,7 @@ export default function Footer() {
         <div class=" mx-auto">
             <div class="d-flex justify-content-center">
               <span class="px-2"><a href="#"><FaWhatsapp size={45} color="white"/> </a></span>
-              <span class="px-2"><a href="#"><FaFacebook size={45} color="white"/> </a></span>
+              <span class="px-2"><a href="https://www.facebook.com/tambua.evarisrus/"><FaFacebook size={45} color="white"/> </a></span>
               <span class="px-2"><a href="#"><FaInstagram size={45} color="white"/> </a></span>
               <span class="px-2"><a href="#"><FaTwitter size={45} color="white"/> </a></span>
               <span class="px-2"><a href="#"><FaLinkedin size={45} color="white"/> </a></span>
