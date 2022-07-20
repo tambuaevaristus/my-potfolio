@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsCodeSlash } from "react-icons/bs";
+import { SiAndroidstudio } from "react-icons/si";
+import { IoHardwareChipSharp } from "react-icons/io5";
+import { AiTwotoneSound } from "react-icons/ai";
+
 
 export default function About() {
   return (
-    <div className="container-fluid bg-white">
+    <div className="container-fluid bg-light">
 
     <div className="container py-5 px-5 text-center">
       <div className="text-center px-md-5">
@@ -16,8 +21,9 @@ export default function About() {
           specialize in building web and mobile applications I also make things
           that make people happy.
         </p>
-        <Link class="btn btn-outline-primary" href="about">
+        <Link class="btn btn-outline-primary" to="about">
           Read More
+          {/* <button class="btn btn-outline-primary" type="button">Read More</button> */}
         </Link>
       </div>
 
@@ -25,10 +31,10 @@ export default function About() {
     <div class="container">
         <div class="row">
             <div class="col-md-4 wrap-service11-box">
-                <div class="card card-shadow border-0 mb-4">
+                <div class="card card-shadow border-1 mb-4">
                     <div class="p-4">
                         <div class="icon-space">
-                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">WD</div>
+                        <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><BsCodeSlash /></div>
                         </div>
                         <h6 class="font-weight-medium">Web Development</h6>
                         <p class="mt-3">I design, build and maintain website sites, blogs and any web application  </p>
@@ -36,10 +42,10 @@ export default function About() {
                 </div>
             </div>
             <div class="col-md-4 wrap-service11-box">
-                <div class="card card-shadow border-0 mb-4">
+                <div class="card card-shadow border-1 mb-4">
                     <div class="p-4">
                         <div class="icon-space">
-                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">MD</div>
+                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><SiAndroidstudio /></div>
                         </div>
                         <h6 class="font-weight-medium">Mobile App Development</h6>
                         <p class="mt-3">I design, build and mantain  Android  applications from scratch to solve </p>
@@ -47,13 +53,24 @@ export default function About() {
                 </div>
             </div>
             <div class="col-md-4 wrap-service11-box">
-                <div class="card card-shadow border-0 mb-4">
+                <div class="card card-shadow border-1 mb-4">
                     <div class="p-4">
                         <div class="icon-space">
-                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">CM</div>
+                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><IoHardwareChipSharp /></div>
                         </div>
                         <h6 class="font-weight-medium">Computer Maintainance</h6>
-                        <p class="mt-3">I also debug and solve any computer related problems hardware or software</p>
+                        <p class="mt-3">Debug and solve any computer related problem hardware or software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 wrap-service11-box">
+                <div class="card card-shadow border-1 mb-4">
+                    <div class="p-4">
+                        <div class="icon-space">
+                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><AiTwotoneSound/></div>
+                        </div>
+                        <h6 class="font-weight-medium">Sound Engineering</h6>
+                        <p class="mt-3">Professional sound engineering skills to bring out the best out of any sound system</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +82,7 @@ export default function About() {
 </div>
 
 
-      <img className="img-fluid text-center" src="/asserts/Core-Values.png"/>
+      <img className="img-fluid text-center" src="https://www.dhsforyou.com/wp-content/uploads/2019/12/core-value1.png"/>
     </div>
     </div>
   );

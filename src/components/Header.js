@@ -7,7 +7,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div>
+      
       <nav class="navbar navbar-expand-md fixed-top navbar-dark header">
+        
         <div class="container">
           <Link class="navbar-brand" to="/">
             <div className="d-md-none border border-secondary">
